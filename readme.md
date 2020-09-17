@@ -175,6 +175,16 @@ module.exports = {
 $ npm start
 ```
 
+# 6. clone
+
+```bash
+$ cd ~/Desktop
+$ git clone https://github.com/ungmo2/webpack-dev-server-exam.git
+$ cd webpack-dev-server-exam
+$ npm install
+$ npm start
+```
+
 # Ref
 
 - [프론트엔드 개발환경의 이해: 웹팩(심화)](https://jeonghwan-kim.github.io/series/2020/01/02/frontend-dev-env-webpack-intermediate.html)
