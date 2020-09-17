@@ -20,6 +20,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.11.5",
     "redux": "^4.0.5"
   }
 }
