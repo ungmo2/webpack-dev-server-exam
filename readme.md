@@ -63,7 +63,7 @@ package.json
 ```json
 ...
   "scripts": {
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress --open"
   },
 ...
 ```
