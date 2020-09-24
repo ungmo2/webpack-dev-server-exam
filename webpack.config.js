@@ -62,11 +62,12 @@ module.exports = {
         res.json(todos);
       });
 
-      // PATCH /todos/:id
+      // PATCH /todos/:id { compelted }
       app.patch('/todos/:id', (req, res) => {
         const { id } = req.params;
+        const { completed } = req.body;
         todos = todos.map(todo =>
-          todo.id === +id ? { ...todo, completed: !todo.completed } : todo
+          todo.id === +id ? { ...todo, completed } : todo
         );
         res.json(todos);
       });
