@@ -14,7 +14,8 @@ webpack-dev-server-exam/
 ├── src/
 │   └── js/
 │       ├── counter.js
-│       └── redux-counter.js
+│       ├── redux-counter.js
+│       └── request.js
 ├── package.json
 └── webpack.config.js
 ```
