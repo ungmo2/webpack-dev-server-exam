@@ -175,7 +175,7 @@ module.exports = {
 $ npm start
 ```
 
-# 6. mockup server
+# 6. local mock API server
 
 - src/request.js
 
